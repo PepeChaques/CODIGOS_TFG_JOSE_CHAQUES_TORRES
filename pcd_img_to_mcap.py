@@ -202,7 +202,7 @@ def pcd_images_to_mcap(input_folder,image_folder,output_mcap,timestamp_txt):
 
 if __name__ == "__main__":
     if len(sys.argv) != 5:
-        print("Para usar el script: python3 pcd_img_a_mcap <pcd_folder> <image_folder> <output_file.mcap> <timestamps.txt>")
+        print("Para usar el script: python3 pcd_img_to_mcap <pcd_folder> <image_folder> <output_file.mcap> <timestamps.txt>")
         sys.exit(1)
 
     input_folder = sys.argv[1]
@@ -221,3 +221,4 @@ if __name__ == "__main__":
 
 
         
+
